@@ -2,11 +2,16 @@
 import "./_house_contact_us.scss";
 
 const HouseContactUs = () => {
+
+	const handle_submit = (e) => {
+		e.preventDefault();
+	}
+
 	return (
 		<section className="contact_us_page">
 			<h1 className="mb-4">Do you want such as this case?</h1>
 			<p className="fw-bold fs-4 mb-4">Please fill out the form below. Out collegues will contact you</p>
-			<form className="row gy-3 gx-3">
+			<form className="row gy-3 gx-3" onSubmit={handle_submit}>
 				<div className="col-12 col-md-4">
 					<input type="text" name="full_name" className="form-control" placeholder="Your name..."/>
 				</div>

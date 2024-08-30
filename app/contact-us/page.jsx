@@ -5,7 +5,7 @@ import { FaLocationDot } from "react-icons/fa6";
 
 
 export const metadata = {
-	title: "Contact Us",
+	title: "Contact us",
 }
 
 const ContactUs = () => {

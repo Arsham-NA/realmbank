@@ -6,15 +6,35 @@ const Footer = () => {
 	return (
 		<footer className="footer w-100">
 			<div className="section_top row row-gap-3">
-				<h1 className="col-12 col-lg-5 text-center">Realmbank</h1>
-				<ul className="footer_links col-12 col-lg-7 d-flex justify-content-evenly justify-content-lg-center align-items-center column-gap-lg-1  column-gap-lg-3 column-gap-xl-5">
-					<li><Link href={"/"}>Main page</Link></li>
-					<li><Link href={"/houses"}>Houses</Link></li>
-					<li><Link href={"users"}>users</Link></li>
-					<li><Link href={"about-us"}>About us</Link></li>
-					<li><Link href={"contact-us"}>contact us</Link></li>
-					<li><Link href={"faq"}>FAQ</Link></li>
-				</ul>
+				<h1 className="col-12 col-lg-5 text-center mb-0">Realmbank</h1>
+				<div className="col-12 col-lg-7 d-md-flex justify-content-md-center align-items-md-center">
+
+					{/* mobile */}
+					<ul className="footer_links d-md-none row row-cols-2 m-0 p-0">
+						<div className="col d-flex flex-column justify-content-center align-items-center row-gap-4">
+							<li><Link href={"/"}>Main page</Link></li>
+							<li><Link href={"/houses"}>Houses</Link></li>
+							<li><Link href={"users"}>users</Link></li>
+						</div>
+						<div className="col d-flex flex-column justify-content-center align-items-center row-gap-4">
+							<li><Link href={"about-us"}>About us</Link></li>
+							<li><Link href={"contact-us"}>contact us</Link></li>
+							<li><Link href={"faq"}>FAQ</Link></li>
+						</div>
+					</ul>
+
+					{/* desktop */}
+					<ul className="footer_links d-none d-md-flex justify-content-center align-items-center column-gap-4 m-0 p-0">
+							<li><Link href={"/"}>Main page</Link></li>
+							<li><Link href={"/houses"}>Houses</Link></li>
+							<li><Link href={"users"}>users</Link></li>
+							<li><Link href={"about-us"}>About us</Link></li>
+							<li><Link href={"contact-us"}>contact us</Link></li>
+							<li><Link href={"faq"}>FAQ</Link></li>
+					</ul>
+
+
+				</div>
 				<div className="mt-5 w-100 text-center">
 					<h3 className="w-100">Follow us</h3>
 					<div className="social_links">

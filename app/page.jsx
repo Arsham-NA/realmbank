@@ -13,6 +13,7 @@ const Home = () => {
   return (
     <main className="home">
     <HeroSection />
+    
       {/* section 1 */}
       <section className="section_1 container-sm">
         <h1 className="title_1 text-center container-sm">Buying and selling property with the advice of a real estate consultant</h1>
