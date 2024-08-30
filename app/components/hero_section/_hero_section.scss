@@ -1,0 +1,115 @@
+@import "../../styles/variables";
+
+.hero_section {
+	max-width: 2000px;
+	height: 100vh;
+	position: absolute;
+	inset: 0;
+	background: url("../../../public/images/hero_section/hero_section.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+	z-index: 0;
+	margin-bottom: 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	
+		.titles {
+			h1 {
+				color: white;
+				font-size: 68px;
+				padding: 0;
+				margin: 0;
+			}
+			p {
+				font-size: 18px;
+				color: black;
+			}
+		}
+
+	.filter_container {
+		background-color: white;
+		padding: 2rem .1rem;
+
+		.dropdown {
+			.dropdown_btn {
+				border: 1px solid black;
+				border-radius: 12px;
+				width: 150px;
+				height: 60px;
+				background-color: white;
+			}
+			.dropdown-menu {
+				.dropdown-item {
+					&:active {
+						background-color: $primary;
+					}
+				}
+			}
+		}
+
+		.search_input {
+				border: 1px solid black;
+				border-radius: 12px;
+				width: 150px;
+				height: 60px;
+				background-color: white;
+				padding: 10px;
+			font-size: 12px;
+			&:focus {
+				outline: none;
+			}
+		}
+
+		.search_btn {
+				border: none;
+				border-radius: 12px;
+				width: 150px;
+				height: 60px;
+				background-color: $primary;
+				font-size: x-large;
+				color: white;
+		}
+		
+	}
+	
+	
+}
+
+@media screen and (max-width: 768px) {
+	.hero_section {
+		.titles {
+			h1 {
+				font-size: 44px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.hero_section {
+		.titles {
+			h1 {
+				font-size: 22px;
+			}
+		}
+
+		.filter_container {
+			.col {
+				.dropdown {
+					.dropdown_btn {
+						width: calc(150px - 15px);
+						height: calc(60px - 6px);
+					}
+				}
+
+				.search_input {
+					width: calc(150px - 15px);
+					height: calc(60px - 6px);
+				}
+			}
+		}
+	}
+}

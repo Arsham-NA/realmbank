@@ -1,0 +1,32 @@
+@import "../../styles/variables";
+
+.register_page {
+	margin-top: 8rem;
+	background: no-repeat url("../../../public/images/register/register-background.png");
+	background-size: contain;
+	h1 {
+		color: $primary;
+	}
+
+	.left_section {
+		.svg_border {
+			width: 3.7rem;
+			height: 3.7rem;
+			cursor: pointer;
+		}
+	}
+	
+	form {
+		input {
+			border: 1px solid $primary;
+			border-radius: 12px;
+			
+			padding: 1rem;
+		}
+		.submit_btn {
+			border-radius: 12px;
+			height: 3.4rem;
+			background-color: #0a66c2;
+		}
+	}
+}

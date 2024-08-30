@@ -1,0 +1,20 @@
+@import "../styles/variables";
+
+.contact_us_page {
+	background: no-repeat url("../../public/images/contact_us/background.png");
+	background-size: cover;
+	.contact_us_body {
+		margin: 8rem 0rem;
+		h2 {
+			color: $primary;
+		}
+		.contact_us_container{
+			.contact_info {
+				svg {
+					width: 24px;
+					height: 24px;
+				}
+			}
+		}
+	}
+}

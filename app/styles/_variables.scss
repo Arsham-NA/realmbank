@@ -1,0 +1,22 @@
+$primary: #ba0000;
+$secondary: #7eba00;
+$dark_1: #2e2e2c;
+$dark_2: #424242;
+
+$title_lg: 70px;
+
+$shadow_sm: 0px 0px 16px rgba(0, 0, 0, 0.1);
+$shadow_md: 0px 0px 16px rgba(0, 0, 0, 0.2);
+
+@mixin outline_btn {
+	border: none;
+	background-color: transparent;
+	color: $primary;
+	outline: 1px solid $primary;
+	transition: all .15s ease;
+
+	&:hover {
+		background-color: $primary;
+		color: white;
+	}
+}

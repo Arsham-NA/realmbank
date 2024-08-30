@@ -1,0 +1,14 @@
+@import "../../../styles/variables";
+
+.contact_us_form {
+	.submit_btn {
+		border: none;
+		border-radius: 10px;
+		background-color: $secondary;
+		padding: 1rem .8rem;
+		color: white;
+		box-shadow: 0px 6px 4px rgba(0, 0, 0, .1) inset;
+		font-size: 1.1rem;
+		width: 100%;
+	}
+}

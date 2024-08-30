@@ -1,0 +1,11 @@
+@import "../styles/variables";
+.houses_page {
+	margin-top: 8rem;
+	h1 {
+		color: $primary;
+	}
+	.image_border {
+		box-shadow: $shadow_md;
+	}
+}
+

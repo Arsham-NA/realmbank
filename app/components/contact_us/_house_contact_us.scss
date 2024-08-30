@@ -1,0 +1,15 @@
+@import "../../styles/variables";
+
+.contact_us_page {
+	h1 {
+		color: $primary;
+	}
+
+	input {
+		padding: 1.5rem 1rem;
+	}
+
+	.submit_btn {
+		background-color: $secondary;
+	}
+}

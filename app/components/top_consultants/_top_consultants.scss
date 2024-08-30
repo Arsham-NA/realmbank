@@ -1,0 +1,19 @@
+@import "../../styles/variables";
+
+.top_consultants {
+	width: 100%;
+	h2 {
+		color: $primary;
+	}
+	.consultants_container {
+		padding: 1.5rem;
+		margin-top: 3rem;
+
+		.consultant_img {
+			border-radius: 50%;
+			outline: 2px solid $primary;
+			outline-offset: 2px;
+			box-shadow: 0px 0px 20px rgba(0, 0, 0, .5);
+		}
+	}
+}

@@ -1,0 +1,17 @@
+@import "../styles/variables";
+
+.about_us_page {
+	margin-top: 8rem;
+	.section_1 {
+		.image_border {
+			width: 100px;
+			height: 100px;
+		}
+		h2 {
+			color: $primary;
+		}
+		.learn_more_btn {
+			background-color: $primary;
+		}
+	}
+}

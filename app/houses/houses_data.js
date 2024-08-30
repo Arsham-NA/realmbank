@@ -1,0 +1,148 @@
+const houses = [
+	{
+		"id": 1,
+		"image": "/images/houses/house-1.png",
+		"country": "UK",
+		"city": "London",
+		"region": "Sutton",
+		"area": 400,
+		"rooms": 3,
+		"price": 4400000,
+		"facilities": {
+			"pool": true,
+			"jacuzzi": true,
+			"warehouse": true,
+			"garden": true,
+			"parking": true,
+			"furnished": false,
+		}
+	},
+	{
+		"id": 2,
+		"image":"/images/houses/house-2.png",
+		"country": "UK",
+		"city": "Leeds",
+		"region": "Horsforth",
+		"area": 350,
+		"rooms": 3,
+		"price": 4000000,
+		"facilities": {
+			"pool": true,
+			"jacuzzi": true,
+			"warehouse": true,
+			"garden": true,
+			"parking": true,
+			"furnished": true,
+		}
+	},
+	{
+		"id": 3,
+		"image": "/images/houses/house-3.png",
+		"country": "UK",
+		"city": "Leeds",
+		"region": "Horsforth",
+		"area": 350,
+		"rooms": 2,
+		"price": 3500000,
+		"facilities": {
+			"pool": false,
+			"jacuzzi": true,
+			"warehouse": true,
+			"garden": true,
+			"parking": true,
+			"furnished": true,
+		}
+	},
+	{
+		"id": 4,
+		"image": "/images/houses/house-4.png",
+		"country": "UK",
+		"city": "Leeds",
+		"region": "Horsforth",
+		"area": 350,
+		"rooms": 2,
+		"price": 3500000,
+		"facilities": {
+			"pool": false,
+			"jacuzzi": true,
+			"warehouse": true,
+			"garden": true,
+			"parking": true,
+			"furnished": true,
+		}
+	},
+	{
+		"id": 5,
+		"image": "/images/houses/house-5.png",
+		"country": "UK",
+		"city": "Leeds",
+		"region": "Horsforth",
+		"area": 350,
+		"rooms": 2,
+		"price": 3500000,
+		"facilities": {
+			"pool": false,
+			"jacuzzi": true,
+			"warehouse": true,
+			"garden": true,
+			"parking": true,
+			"furnished": true,
+		}
+	},
+	{
+		"id": 6,
+		"image": "/images/houses/house-6.png",
+		"country": "UK",
+		"city": "Leeds",
+		"region": "Horsforth",
+		"area": 350,
+		"rooms": 2,
+		"price": 3500000,
+		"facilities": {
+			"pool": false,
+			"jacuzzi": true,
+			"warehouse": true,
+			"garden": true,
+			"parking": true,
+			"furnished": true,
+		}
+	},
+	{
+		"id": 7,
+		"image": "/images/houses/house-7.png",
+		"country": "UK",
+		"city": "Leeds",
+		"region": "Horsforth",
+		"area": 350,
+		"rooms": 2,
+		"price": 3500000,
+		"facilities": {
+			"pool": false,
+			"jacuzzi": true,
+			"warehouse": true,
+			"garden": true,
+			"parking": true,
+			"furnished": true,
+		}
+	},
+	{
+		"id": 8,
+		"image": "/images/houses/house-8.png",
+		"country": "UK",
+		"city": "Leeds",
+		"region": "Horsforth",
+		"area": 350,
+		"rooms": 2,
+		"price": 3500000,
+		"facilities": {
+			"pool": false,
+			"jacuzzi": true,
+			"warehouse": true,
+			"garden": true,
+			"parking": true,
+			"furnished": true,
+		}
+	},
+];
+
+export default houses;
