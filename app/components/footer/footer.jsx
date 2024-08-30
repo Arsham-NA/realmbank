@@ -1,6 +1,7 @@
 import Link from "next/link";
 import "./_footer.scss";
 import { BsFacebook, BsInstagram, BsLinkedin, BsSearch, BsTwitter } from "react-icons/bs";
+import FooterModal from "./footer_modal/footer_modal";
 
 const Footer = () => {
 	return (
@@ -38,10 +39,7 @@ const Footer = () => {
 				<div className="mt-5 w-100 text-center">
 					<h3 className="w-100">Follow us</h3>
 					<div className="social_links">
-						<BsTwitter />
-						<BsLinkedin />
-						<BsFacebook />
-						<BsInstagram />
+						<FooterModal />
 					</div>
 				</div>
 			</div>

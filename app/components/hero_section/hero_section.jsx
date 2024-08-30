@@ -1,6 +1,6 @@
 "use client";
 import "./_hero_section.scss";
-import "bootstrap/dist/js/bootstrap.bundle.min";
+import "../../../node_modules/bootstrap/dist/js/bootstrap.bundle.min"
 
 const HeroSection = () => {
 

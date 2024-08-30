@@ -5,7 +5,6 @@ import { IoPersonOutline } from "react-icons/io5";
 import { FaBars } from "react-icons/fa6";
 import { BsX } from "react-icons/bs";
 import { usePathname, useRouter } from "next/navigation";
-import "bootstrap/dist/js/bootstrap.bundle.min";
 
 
 const Header = () => {

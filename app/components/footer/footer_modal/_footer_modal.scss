@@ -1,0 +1,6 @@
+@import "../../../styles/variables";
+
+.close_btn {
+	background-color: $primary;
+	@include outline_btn;
+}
