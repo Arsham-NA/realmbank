@@ -24,7 +24,7 @@ const ContactUs = () => {
 						<h1 className="fs-3">Contact Info</h1>
 						<div className="d-flex justify-content-start align-items-center">
 							<FaLocationDot />
-							<span className="fs-5 ms-3">Lorem ipsum dolor sit a</span>
+							<span className="fs-5 ms-3">Esfahan</span>
 						</div>
 						<div className="d-flex justify-content-start align-items-center">
 							<BsEnvelope />
